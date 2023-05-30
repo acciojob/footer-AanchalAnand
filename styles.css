@@ -1,1 +1,77 @@
 /* your code here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 35px;
+    margin-bottom: 25px;
+}
+i{
+    margin-left: 20px;
+
+}
+i.fa-facebook{
+    color: rgb(92, 92, 170);
+}
+i.fa-facebook:hover{
+    color: rgb(71, 71, 170);
+}
+i.fa-twitter{
+    color: rgb(61, 182, 243);
+}
+i.fa-twitter:hover{
+    color: rgb(6, 147, 218);
+}
+i.fa-instagram{
+    color: rgb(229, 53, 132);
+}
+i.fa-instagram:hover{
+    color: rgb(197, 11, 95);
+}
+i.fa-youtube{
+    color: rgb(249, 34, 34);
+}
+i.fa-youtube:hover{
+    color: rgb(223, 4, 4);
+}
+.link-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.links a, .services a, .other-services a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0 10px 0;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.link-boxes ul{
+    list-style-type: none;
+}
+.services li, .other-services li, .contact li{
+    margin: 22px 0 22px 0;
+}
+.services li>a:hover, .other-services li>a:hover, .contact li>a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.bottom-details{
+    background-color: rgb(47, 49, 53);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+}
